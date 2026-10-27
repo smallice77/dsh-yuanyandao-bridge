@@ -7,3 +7,6 @@
         config:
           transport: streamable-http
           url: http://127.0.0.1:18080/mcp
+          serverName: yuanyandao
+          toolCallTimeoutMs: 180000
+          failOnStartupError: true
