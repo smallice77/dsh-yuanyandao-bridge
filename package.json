@@ -1,0 +1,16 @@
+{
+  "name": "dsh-yuanyandao-bridge",
+  "version": "7.0.0",
+  "type": "module",
+  "main": "index.js",
+  "files": ["index.js", "cordis.patch.yml"],
+  "keywords": ["dsh-plugin","元衍道枢","yuanyandao","mcp"],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-mcp-client": ">=0.1.0"
+  }
+}

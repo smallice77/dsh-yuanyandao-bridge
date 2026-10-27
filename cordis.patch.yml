@@ -1,0 +1,10 @@
+- insert:
+    path: $.plugins
+    value:
+      - name: mcp-client
+        package: "@deepseek-ai/dsh-mcp-client"
+        config:
+          servers:
+            yuanyandao:
+              transport: streamable-http
+              url: http://127.0.0.1:18080/mcp
