@@ -1,7 +1,6 @@
 {
   "name": "dsh-yuanyandao-bridge",
   "version": "7.0.0",
-  "type": "module",
   "main": "index.js",
   "files": [
     "index.js",
@@ -9,17 +8,17 @@
   ],
   "keywords": [
     "dsh-plugin",
-    "mcp",
-    "元衍道枢",
-    "yuanyandao"
+    "mcp"
   ],
   "dsh": {
     "title": "元衍道枢MCP桥插件",
-    "description": "元衍道枢V7沙盘推演基座MCP接入桥，Streamable HTTP版本，DSH Bundle组合包",
+    "description": "元衍道枢V7 MCP Streamable HTTP接入桥",
     "bundle": {
       "patch": "./cordis.patch.yml"
     }
-  },
+  }
+}
+
   "peerDependencies": {
     "@deepseek-ai/dsh-mcp-client": ">=0.1.0"
   }
