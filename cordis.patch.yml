@@ -2,10 +2,8 @@
     path: $.plugins
     value:
       - id: yuanyandao-mcp
-        name: '@deepseek-ai/dsh-mcp-client'
+        name: 元衍道枢MCP桥
+        type: mcp
         config:
-          serverName: yuanyandao
           transport: streamable-http
           url: http://127.0.0.1:18080/mcp
-          toolCallTimeoutMs: 180000
-          failOnStartupError: true
