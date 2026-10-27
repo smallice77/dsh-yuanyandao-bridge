@@ -3,12 +3,23 @@
   "version": "7.0.0",
   "type": "module",
   "main": "index.js",
-  "files": ["index.js", "cordis.patch.yml"],
-  "keywords": ["dsh-plugin", "元衍道枢", "yuanyandao", "mcp"],
+  "bundle": true,
+  "files": [
+    "index.js",
+    "cordis.patch.yml"
+  ],
+  "keywords": [
+    "dsh-plugin",
+    "mcp",
+    "元衍道枢",
+    "yuanyandao"
+  ],
   "dsh": {
     "title": "元衍道枢MCP桥插件",
     "description": "元衍道枢V7沙盘推演基座MCP接入桥，streamable http版本",
-    "patches": ["./cordis.patch.yml"]
+    "patches": [
+      "./cordis.patch.yml"
+    ]
   },
   "peerDependencies": {
     "@deepseek-ai/dsh-mcp-client": ">=0.1.0"
